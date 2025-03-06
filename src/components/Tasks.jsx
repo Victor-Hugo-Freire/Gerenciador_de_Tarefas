@@ -26,7 +26,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
             >
               {task.isCompleted && <CheckIcon />}
               {/* OU(nesse caso o react não nos permite usar o if) */}
-              {/* {task.isCompleted ? <CheckIcon /> : null} */}
+              {/* {task.isCompletedaa ? <CheckIcon /> : null} */}
               {task.title}
             </button>
 
